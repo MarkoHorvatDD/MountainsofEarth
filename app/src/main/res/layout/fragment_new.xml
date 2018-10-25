@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    tools:context=".MontBlancFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4b3832  "
+
+       />
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/mont_blanc_4"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background=" #fff4e6"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:lineSpacingExtra="8sp"
+            android:text="\n      Mont Blanc meaning White Mountain, is the highest mountain in the Alps and the highest in Europe west of Russia's Caucasus peaks . It rises 4,808.7 m (15,777 ft) above sea level and is ranked 11th in the world in topographic prominence. The mountain stands in a range called the Graian Alps, between the regions of Aosta Valley, Italy, and Savoie and Haute-Savoie, France. The location of the summit is on the watershed line between the valleys of Ferret and Veny in Italy and the valleys of Montjoie, and Arve in France. The Mont Blanc massif is popular for hiking, skiing, and snowboarding.
+\n\nElevation:4,808.7 m (15,777 ft)
+
+
+
+"
+
+
+
+             android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

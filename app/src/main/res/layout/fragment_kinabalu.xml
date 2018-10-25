@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KinabaluFragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="  #36454f "
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/kinabalu"
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d2d4dc"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:lineSpacingExtra="8sp"
+            android:text="\n     Mount Kinabalu, Malay Gunung Kinabalu, highest peak in the Malay Archipelago, rising to 13,455 feet (4,101 m) in north-western East Malaysia (North Borneo). Lying near the centre of the Crocker Range, the massif gently emerges from a level plain and abruptly rises from a rocky slope into a great, barren, flat-topped block 0.5 miles (0.8 km) long. Gully-scarred, the plateau block is surrounded by black granite cliffs and precipices thousands of feet high. The mountain’s lower slopes are farmed up to about 2,000 feet (600 m).\n
+   The peak is the spirit homeland for the indigenous Kadazan people, and its name is derived from their term Akinabalu (“Revered Place of the Dead”). It was formerly known as St. Peter’s Mount. The first European to climb Kinabalu was Hugh (later Sir Hugh) Low, who made the ascent from Tuaran in 1851. Kota Belud (“Hill Fort”), perched on its slopes, is known for its Sunday market and pony races. Kinabalu National Park (291 square miles [754 square km]) encompasses Mount Kinabalu and surrounding parts of the Crocker Range.
+\n\nElevation	4,095 m (13,435 ft)"
+
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

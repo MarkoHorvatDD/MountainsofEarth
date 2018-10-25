@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mountains on Earth</string>
+    <string name="title_home">EUROPA</string>
+    <string name="title_dashboard">ASIA</string>
+    <string name="title_notifications">AFRICA</string>
+    <string name="title_america">AMERICA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="fragments">
+
+        <item>NewFragment</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

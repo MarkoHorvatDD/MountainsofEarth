@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AraratFragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="  #4b3832 "
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/ararat_3"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="   #fff4e6    "
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:lineSpacingExtra="8sp"
+          android:text="\n      Mount Ararat, Turkish Ağrı Dağı, volcanic massif in extreme eastern Turkey, overlooking the point at which the frontiers of Turkey, Iran, and Armenia converge. Its northern and eastern slopes rise from the broad alluvial plain of the Aras River, about 3,300 feet (1,000 metres) above sea level; its southwestern slopes rise from a plain about 5,000 feet (1,500 metres) above sea level; and on the west a low pass separates it from a long range of other volcanic ridges extending westward toward the eastern Taurus ranges. The Ararat Massif is about 25 miles (40 km) in diameter.\n
+        Ararat consists of two peaks, their summits about 7 miles (11 km) apart. Great Ararat, or Büyük Ağrı Dağı, which reaches an elevation of 16,945 feet (5,165 metres) above sea level, is the highest peak in Turkey. Little Ararat, or Küçük Ağrı Dağı, rises in a smooth, steep, nearly perfect cone to 12,782 feet (3,896 metres). Both Great and Little Ararat are the product of eruptive volcanic activity. Neither retains any evidence of a crater, but well-formed cones and fissures exist on their flanks. Towering some 14,000 feet (4,300 metres) above the adjoining plains, the snowcapped conical peak of the Great Ararat offers a majestic sight. The snowline varies with the season, retreating to 14,000 feet above sea level by the end of the summer. The only true glacier is found on the northern side of the Great Ararat, near its summit. The middle zone of Ararat, measuring from 5,000 to 11,500 feet (1,500 to 3,500 metres), is covered with good pasture grass and some juniper; there the local Kurdish population graze their sheep. Most of the Great Ararat is treeless, but Little Ararat has a few birch groves. Despite the abundant cover of snow, the Ararat area suffers from scarcity of water.
+        \n\nElevation	5,137 m (16,854 ft)           "
+
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+

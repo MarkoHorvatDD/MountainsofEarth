@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".K2Fragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="  #36454f "
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/k2_3"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d2d4dc"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:lineSpacingExtra="8sp"
+            android:text="\n      K2, Chinese Qogir Feng, also called Mount Godwin Austen, called locally Dapsang or Chogori, the world’s second highest peak (28,251 feet [8,611 metres]), second only to Mount Everest. K2 is located in the Karakoram Range and lies partly in a Chinese-administered enclave of the Kashmir region within the Uygur Autonomous Region of Xinjiang, China, and partly in the Gilgit-Baltistan portion of Kashmir under the administration of Pakistan.
+\nBecause K2 is prone to frequent and severe storms that make the already treacherous climbing conditions on its slopes even more challenging—and humans find functioning at such high elevations difficult—it is one of the world’s most difficult mountains to climb. The number of people to have reached the top constitutes only a small fraction compared with how many have successfully climbed Mount Everest. In addition, although there have been fewer deaths on K2 compared with those on Mount Everest, the proportion of those killed to the number of people who have attempted climbing K2 is significantly higher.
+\n\nElevation	8,611 metres (28,251 ft)  "
+
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

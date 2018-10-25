@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".AmericaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        tools:context=".AmericaFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2e003e"
+
+        android:gravity="center"
+        android:text="AMERICA MOUNTAINS "
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+
+
+        android:text="Choose mountain "
+
+        android:textColor="  #3d2352  "
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+
+    <ImageButton
+        android:id="@+id/btFragment13"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+
+
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/mckinley_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btFragment14"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="112dp"
+
+        android:background="@drawable/pico_1"
+        />
+
+
+    <ImageButton
+        android:id="@+id/btFragment15"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+
+        android:background="@drawable/aconcagu_3"
+        />
+
+
+    <ImageButton
+        android:id="@+id/btFragment16"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/ojos_3"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+</ScrollView>

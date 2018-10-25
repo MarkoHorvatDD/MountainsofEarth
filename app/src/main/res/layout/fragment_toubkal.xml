@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ToubkalFragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/toubkal_2"
+        />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F8E9"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:lineSpacingExtra="8sp"
+            android:text="\n   Mount Toubkal, mountain peak that is the highest point (13,665 feet [4,165 metres]) in Morocco and in the Atlas Mountains. The peak is situated 40 miles (60 km) south of Marrakech in the High Atlas (Haut Atlas). Juniper forests covering the mountain’s higher slopes are succeeded by alpine meadows, whereas the lower slopes have been extensively overgrazed. The peak is the central attraction of Toubkal National Park, an area noted for its winter skiing and summer hiking.
+\n\nElevation	4,165 m (13,665 ft)"
+
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

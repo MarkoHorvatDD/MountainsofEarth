@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Aconcagua">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2e003e"
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/acungacua_2"
+        />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e4dcf1"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="\n    Mount Aconcagua, Spanish Cerro Aconcagua, mountain in western Mendoza province, west-central Argentina, on the Chilean border. It is the highest point in the Western Hemisphere.Aconcagua lies in the Southern Andes Mountains; although its peak is in Argentina, its western flanks build up from the coastal lowlands of Chile, just north of Santiago. Its name possibly originated from the Quechua Ackon Cahuak (“Sentinel of Stone”). Aconcagua is of volcanic origin, but it is not itself an active volcano. It has two summits—north and south—connected by a ridge (Cresta del Guanaco) that is about 0.6 mile (1 km) long. The first attempted ascent, made in 1883, failed; the highest (north) summit was first reached in 1897 by Swiss climber Matthias Zurbriggen.
+
+\n\nElevation	6,960.8 m (22,837 ft)
+"
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

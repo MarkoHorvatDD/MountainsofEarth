@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KenyaFragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/kenya_2"
+        />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F8E9"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:lineSpacingExtra="8sp"
+            android:text="\n     Mount Kenya, Swahili Kirinyaga, volcano, central Kenya, lying immediately south of the Equator. It is the second highest mountain in Africa after Kilimanjaro, which is located some 200 miles (320 km) to the south. The Mount Kenya area was added to UNESCO’s World Heritage List in 1997.
+\nThe base of the mountain lies at some 5,250 feet (1,600 metres). At the 8,000-foot (2,440-metre) contour, the circumference is approximately 95 miles (153 km). Its summit area is characterized by steep, pyramidal peaks, principal among which are Batian (17,058 feet [5,199 metres]), Nelion (17,022 feet [5,188 metres]), and Point Lenana (16,355 feet [4,985 metres]). This long-extinct volcano is much eroded, and the highest peaks consist of the crystalline nepheline syenite that plugged the former vent. Radiating from the central peaks are ridges separated by seven principal valleys. Several small, retreating glaciers, of which Lewis and Tyndall are the largest, feed the streams and marshes on the mountain’s slopes. A markedly radial drainage is characteristic, but all streams eventually flow into the Tana River or the Ewaso Ng’iro River.
+\n\nElevation	5,199 m (17,057 ft)"
+
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

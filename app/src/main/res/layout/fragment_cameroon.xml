@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CameroonFragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/cameroon_4"
+        />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F8E9"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:lineSpacingExtra="8sp"
+            android:text="\n   Mount Cameroon, French Mont Cameroun, volcanic massif of southwestern Cameroon that rises to a height of 13,435 feet (4,095 metres) and extends 14 miles (23 km) inland from the Gulf of Guinea. It is the highest peak in sub-Saharan western and central Africa and the westernmost extension of a series of hills and mountains that form a natural boundary between northern Cameroon and Nigeria. The Englishman Sir Richard Burton (1821–90) climbed its summit in 1861. The volcano is still active.
+\nThe town of Buea lies on the southeastern slope of the mountain, and the port of Limbe (formerly Victoria) lies at its southern foot. The side of the mountain facing the sea has a mean annual precipitation level of more than 400 inches (10,000 mm) and is one of the wettest places in the world. The mountain’s rich volcanic soils support bananas, rubber, oil palms, tea, and cacao; valleys are used as pasture.
+\n\nElevation	4,095 m (13,435 ft)"
+
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

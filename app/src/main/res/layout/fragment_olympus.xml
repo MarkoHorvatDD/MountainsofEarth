@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OlympusFragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4b3832"
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/olympus_2"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background=" #fff4e6"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+
+            android:lineSpacingExtra="8sp"
+            android:text="\n  Mount Olympus, Modern Greek Ólympos, mountain peak, the highest (9,570 feet [2,917 m]) in Greece. It is part of the Olympus massif near the Gulf of Thérmai (Modern Greek: Thermaïkós) of the Aegean Sea and lies astride the border between Macedonia (Makedonía) and Thessaly (Thessalía). It is also designated as Upper Olympus (Áno Ólympos), as opposed to Lower Olympus (Káto Ólympos), an adjacent peak on the south rising to 5,210 feet (1,588 m).
+        \n Mount Olympus is snowcapped and often has cloud cover. According to Homer’s Odyssey, however, the peak never has storms and it basks in cloudless aithēr (Greek: “pure upper air”; thus “ether”). Later writers elaborated upon this description, which may have originated from the observation that the peak is often visible above a belt of relatively low clouds. In Greek mythology, Mount Olympus was regarded as the abode of the gods and the site of the throne of Zeus. The name Olympus was used for several other mountains as well as hills, villages, and mythical personages in Greece and Asia Minor.
+        \n\nElevation	2,918 m (9,573 ft)
+
+
+        "
+
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+

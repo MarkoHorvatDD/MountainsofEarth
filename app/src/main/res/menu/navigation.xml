@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/outline_border_all_white_24"
+        android:title="@string/title_home"
+
+        />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/outline_panorama_horizontal_white_24"
+        android:title="@string/title_dashboard"
+
+        />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/outline_radio_button_unchecked_white_24"
+        android:title="@string/title_notifications"
+
+        />
+
+
+    <item
+        android:id="@+id/navigation_america"
+        android:icon="@drawable/outline_star_border_white_24"
+        android:title="AMERICA"
+        />
+
+
+</menu>

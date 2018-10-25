@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PicoFragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2e003e"
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/pico_5"
+        />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e4dcf1"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="\n Volcano Pico de Orizaba, Spanish Volcán Pico de Orizaba, also called Citlaltépetl Volcano, volcano on the border of Veracruz and Puebla states, south-central Mexico. Its name is derived from the Nahuatl for “Star Mountain”)
+The volcano rises on the southern edge of the Mexican Plateau, about 60 miles (100 km) east of the city of Puebla. Towering 18,406 feet (5,610 metres) above sea level, the Pico de Orizaba’s symmetrical snowcapped cone is the third highest peak in North America, after Denali (Mount McKinley) in the U.S. state of Alaska and Mount Logan in Yukon territory, Canada. The volcano has been dormant since 1687. Pico de Orizaba was first climbed in 1838.
+\n\nElevation	5,636 m (18,491 ft)
+"
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

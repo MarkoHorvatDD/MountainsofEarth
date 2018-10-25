@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".McKinleyFragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2e003e"
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/mckinley_1"
+        />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e4dcf1"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="\n  Denali, also called Mount McKinley, highest peak in North America. It is located near the centre of the Alaska Range, with two summits rising above the Denali Fault, in south-central Alaska, U.S.
+Denali’s official elevation figure of 20,310 feet (6,190 metres), established by the United States Geological Survey in September 2015, was the product of a thorough remeasurement of the mountain’s height conducted earlier that year using state-of-the-art equipment. The new value superseded the long-standing figure of 20,320 feet (6,194 metres) that had been the official elevation since the early 1950s. Earlier attempts to measure the mountain’s height had yielded different values. One such survey, conducted in 2010 using advanced radar technology, was made public in September 2013 and gave its elevation as 20,237 feet (6,168 metres). However, that measurement was subsequently determined to be inaccurate.
+\n\nElevation	20,310 ft (6190 m)"
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

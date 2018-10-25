@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlbortFragment">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="  #36454f "
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/damanvand_2"
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d2d4dc"
+        android:text="Press for LoCATION- google map" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:lineSpacingExtra="8sp"
+            android:text="\n      Mount Damāvand, Damāvand also spelled Demavend, Persian Qolleh-ye Damāvand, extinct volcanic peak of the Elburz Mountains in northern Iran, about 42 miles (68 km) northeast of Tehrān. Estimates of its height range from about 18,400 feet (5,610 metres) to 18,600 feet (5,670 metres); it dominates the surrounding ranges by 3,000 to 8,000 feet (900 to 2,450 metres). Its steep snowcapped cone is formed of lava flows and ash and is crowned by a small crater with sulfuric deposits. Below the crater are two small glaciers; there are also fumaroles (holes for escaping fumes and gases), hot springs, and mineral deposits of travertine. Mount Damāvand became volcanically active at least 1.8 million years ago, and its most-recent eruption was about 7,300 years ago. The mountain is mentioned in several Persian legends, one of which gives it as the resting place of Noah’s ark.
+
+\n\nElevation	5,609.2 m (18,403 ft)"
+
+
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>
