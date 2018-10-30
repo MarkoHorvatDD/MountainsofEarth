@@ -1,7 +1,7 @@
 # MountainsofEarth
 
 
-Android application written in Java with bottom navigation  for showing users GPS location, continent, news from Mountains of Earth.
+Android application written in Java with bottom navigation  for showing users GPS location and news from Mountains of Earth.
 
 The application contains:
 -	GPS location
